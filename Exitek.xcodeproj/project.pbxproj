@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2A4F516328C240AF002353B6 /* ExitekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F516228C240AF002353B6 /* ExitekApp.swift */; };
-		2A4F516528C240AF002353B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F516428C240AF002353B6 /* ContentView.swift */; };
+		2A4F516528C240AF002353B6 /* TestContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F516428C240AF002353B6 /* TestContentView.swift */; };
 		2A4F516728C240B2002353B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F516628C240B2002353B6 /* Assets.xcassets */; };
 		2A4F516A28C240B2002353B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F516928C240B2002353B6 /* Preview Assets.xcassets */; };
+		2A4F517128C240CD002353B6 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F517028C240CD002353B6 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A4F515F28C240AF002353B6 /* Exitek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exitek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4F516228C240AF002353B6 /* ExitekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitekApp.swift; sourceTree = "<group>"; };
-		2A4F516428C240AF002353B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A4F516428C240AF002353B6 /* TestContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContentView.swift; sourceTree = "<group>"; };
 		2A4F516628C240B2002353B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4F516928C240B2002353B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A4F517028C240CD002353B6 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				2A4F516228C240AF002353B6 /* ExitekApp.swift */,
-				2A4F516428C240AF002353B6 /* ContentView.swift */,
+				2A4F516428C240AF002353B6 /* TestContentView.swift */,
+				2A4F517028C240CD002353B6 /* StorageManager.swift */,
 				2A4F516628C240B2002353B6 /* Assets.xcassets */,
 				2A4F516828C240B2002353B6 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4F516528C240AF002353B6 /* ContentView.swift in Sources */,
+				2A4F517128C240CD002353B6 /* StorageManager.swift in Sources */,
+				2A4F516528C240AF002353B6 /* TestContentView.swift in Sources */,
 				2A4F516328C240AF002353B6 /* ExitekApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

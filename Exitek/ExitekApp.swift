@@ -11,7 +11,7 @@ import SwiftUI
 struct ExitekApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestContentView()
         }
     }
 }
